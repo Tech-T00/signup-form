@@ -1,0 +1,226 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./img/bg-intro-desktop.png);
+    background-color: rgb(238, 149, 164);
+    display: flex;
+
+}
+#create-account-form{
+    width: 550px;
+    padding: 20px;
+    text-transform: uppercase;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.input-group{
+    margin: 20px 0;
+    position: relative;
+}
+.input-group input{
+    display: block;
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+
+}
+.error input{
+    border: 3px red solid;
+}
+.success input{
+    border: 3px rgb(24, 226, 24) solid;
+}
+
+.input-group i{
+    position: absolute;
+    right: 25px;
+    top: 20px;
+    visibility: hidden;
+}
+.error i.fa-circle-exclamation{
+    visibility: visible;
+    color: red;
+}
+.success i.fa-circle-check{
+    visibility: visible;
+    color: green;
+
+
+}
+
+.input-group p {
+    font-size: 15px;
+    color: red;
+    visibility: hidden;
+    
+}
+.error p{
+    visibility: visible;
+}
+
+
+.btn {
+    width: 100%;
+    padding: 15px;
+    font-size: 20px;
+    background-color: rgb(92, 220, 92);
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    
+    
+}
+
+.btn-p {
+    text-transform: none;
+    padding: 15px;
+   text-align: center;
+   color: rgb(200, 189, 189);
+}
+
+.btn-p span{
+    color: red;
+}
+
+
+
+
+
+.main-container{
+    height: 100vh;
+    width: 100%;
+}
+@media screen and (max-width:992px)  {
+    .main-container{
+        background-image: url(./img/bg-intro-mobile.png);
+        height: 100%;
+        width: 100%;
+        
+        
+    }
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+@media screen and (max-width:992px) {
+    .container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+       
+    }
+}
+
+.container1{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    max-width: 30%;
+    width: 50%;
+    color: white;
+}
+@media screen and (max-width:992px) {
+    .container1{
+        display: block;
+        max-width: 45%;
+        width: 100%;
+        margin-top: 90px;
+        align-items: center;
+        justify-content: center;
+    }
+    .container1 p{
+        text-align: center;
+        max-width: 80%;
+        padding-bottom: 30px;
+        width: 100%;
+    }
+    /* .container1 p br{
+        display: block;
+    } */
+}
+
+.container1 h4{
+    font-size: 40px;
+    color: white;
+
+}
+/* .container1 p br{
+    display: none;
+} */
+
+
+
+
+
+
+.container2{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    max-width: 100%;
+}
+
+
+.p-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+  padding: 15px;
+  border-radius: 10px;
+  color: white;
+  max-width: 80%;
+  margin-bottom: 30px;
+}
+@media screen and (max-width:992px) {
+    .p-container{
+        max-width: 100%;
+    }
+}
+
+.p-container a {
+    text-decoration: none;
+    color: white;
+}
+
+.p-container a .col{
+    color: rgb(232, 210, 210);
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:992px) {
+    #create-account-form{
+        width: 100%;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
